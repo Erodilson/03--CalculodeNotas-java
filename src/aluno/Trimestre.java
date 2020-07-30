@@ -30,10 +30,10 @@ public class Trimestre {
        System.out.println();
      System.out.println(" A nota final deste aluno é :" +(cont.notafinal())  ); 
        
-        if (cont.notafinal()<60)  {System.out.println("aluno reprovado" +"falta " +(100 - cont.notafinal() )+(" pontos"));
+        if (cont.notafinal()<60)  {System.out.println("Aluno reprovado" +" falta " +(100 - cont.notafinal() )+(" pontos"));
         }
         
-        else if (cont.notafinal()<=0){System.out.print("Você não compareceu as aulas :"+ (" falta ")+ ( 100- cont.notafinal())+ ("pontos"));
+        else if (cont.notafinal()>100){System.out.print("Você superou as espectativas:"+ (" teve ")+ (  cont.notafinal())+ (" pontos"));
         	
         }
         else { System.out.println("Você foi aprovado");
